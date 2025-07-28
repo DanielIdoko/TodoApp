@@ -3,10 +3,24 @@
 
 @theme {
   --breakpoint-3xl: 120rem;
-  --color-primary: #ee00e3;
+  --color-primary: #8000fe;
+  --color-primary-dark: var(--color-purple-800);
   --color-base: #f1f1f1;
   --color-secondary: #0011ef;
   --color-accent: #0013e3;
   --text-medium: 16px;
   --text-small: 13px;
+}
+
+body{
+  scroll-behavior: smooth;
+  opacity: 1;
+}
+
+
+.add-todo-btn{
+  transition: all 350ms ease-in;
+}
+.add-todo-btn:hover{
+  background-color: var(--color-primary-dark);
 }
